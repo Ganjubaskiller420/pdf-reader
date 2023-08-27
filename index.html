@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" href="/icon.ico">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>pdf-reader</title>
+</head>
+
+<body>
+  <div class="flex flex-col min-h-screen background" id="app"></div>
+  <script type="module" src="/src/main.js"></script>
+</body>
+
+</html>
+<style>
+  *::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    border-radius: 30px;
+    background-color: #209393;
+  }
+
+  *::-webkit-scrollbar {
+    width: 8px;
+    border-radius: 6px;
+    background-color: #209393
+  }
+
+  *::-webkit-scrollbar-thumb {
+    border-radius: 6px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+    background-color: #0E6060;
+  }
+</style>
